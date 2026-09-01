@@ -15,7 +15,7 @@ import 'package:pocketbase_chat/app/services/storage_service.dart';
 class PocketbaseService extends GetxService {
   static PocketbaseService get to => Get.find();
   // Replace with your pocketbase url
-  final _pocketBaseUrl = "http://192.168.1.36:8090";
+  final _pocketBaseUrl = "http://0.0.0.0:8090/api/";
 
   late PocketBase _client;
   late AuthStore _authStore;
